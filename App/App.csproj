@@ -285,6 +285,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommonPage.cs" />
+    <Compile Include="ContentDataContext.cs" />
+    <Compile Include="DataContentAsAttribute.cs" />
+    <Compile Include="IWidget.cs" />
+    <Compile Include="MappingHelper.cs" />
+    <Compile Include="OverviewWidget.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

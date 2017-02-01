@@ -1,6 +1,26 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+﻿@using global::App
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
     Layout = "Master.cshtml";
+    var page = MappingHelper.MapCommonPage(Model.Content);
+    var widgets = page.MainContent;
+}
+
+@foreach (var widget in widgets)
+{
+    var overviewWidget = widget as OverviewWidget;
+    if (overviewWidget != null)
+    {
+        <h2>This Overview Shouldn't Be Null (Unless There's a Ditto Bug):</h2>
+        if (overviewWidget.Overview == null)
+        {
+            <h3>It was Null :-(</h3>
+        }
+        else
+        {
+            @Html.Raw(overviewWidget.Overview)
+        }
+    }
 }
 
 @CurrentPage.GetGridHtml("content", "fanoe")

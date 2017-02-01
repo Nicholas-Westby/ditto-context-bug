@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Archetype, Version=1.13.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Archetype.Binaries.1.13.1\lib\net40\Archetype.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="AutoMapper, Version=3.3.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
       <HintPath>..\packages\AutoMapper.3.3.1\lib\net40\AutoMapper.dll</HintPath>
       <Private>True</Private>
@@ -156,6 +160,10 @@
     </Reference>
     <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Rhythm.Umbraco.Ditto.Archetype, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rhythm.Umbraco.Ditto.Archetype.1.0.0-beta\lib\net452\Rhythm.Umbraco.Ditto.Archetype.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Semver, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">

@@ -5,9 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DittoContextExample", "DittoContextExample\DittoContextExample.csproj", "{35CF9D3D-C011-4CAC-8837-011FC561A82E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repo Files", "Repo Files", "{3C7C0048-1A36-4EA8-B510-3185373DF058}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{3C7C0048-1A36-4EA8-B510-3185373DF058}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		nuget.config = nuget.config
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{D1F65066-D47E-4906-90F2-D6550F63F85B}"
